@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div id="container">
+        <div id="inputs">
+            <input type="text" id="num-el">
+        </div>
+        <div id="result">
+            <input type="text" id="result-el">
+        </div>
+        <div id="btns">
+            <button class="btn" onclick="erase()"><img src="icons8-back-arrow-64.png" alt=""></button>
+            <button class="btn" onclick="cancel()"><h3>C</h3></button>
+            <button class="btn" onclick="percentage()"><img src="icons8-percentage-64.png" alt=""></button>
+            <button class="btn" onclick="divide()" id="col-yellow"><img src="icons8-divide-100.png" alt=""></button>
+            <button class="btn" onclick="seven()"><h3>7</h3></button>
+            <button class="btn" onclick="eight()"><h3>8</h3></button>
+            <button class="btn" onclick="nine()"><h3>9</h3></button>
+            <button class="btn" onclick="multiply()" id="col-yellow"><img src="icons8-multiply-90.png" alt=""></button>
+            <button class="btn" onclick="four()"><h3>4</h3></button>
+            <button class="btn" onclick="five()"><h3>5</h3></button>
+            <button class="btn" onclick="six()"><h3>6</h3></button>
+            <button class="btn" onclick="minus()" id="col-yellow"><img src="icons8-minus-96.png" alt=""></button>
+            <button class="btn" onclick="one()"><h3>1</h3></button>
+            <button class="btn" onclick="two()"><h3>2</h3></button>
+            <button class="btn" onclick="three()"><h3>3</h3></button>
+            <button class="btn" onclick="plus()" id="col-yellow"><h3>+</h3></button>
+            <button class="btn" onclick="plusOrMinus()"><img src="icons8-plus-slash-minus-50.png" alt=""></button>
+            <button class="btn" onclick="zero()"><h3>0</h3></button>
+            <button class="btn" onclick="point()"><h3>.</h3></button>
+            <button class="btn" onclick="equal()" id="col-yellow"><h3>=</h3></button>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

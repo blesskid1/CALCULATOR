@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin:80px 30px;
+
+}
+
+#inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgba(255, 255, 255, 0.596);
+}
+#num-el, #result-el{
+    font-size: 33px;
+    background-color: rgba(80, 80, 80, 0.159);
+    display: flex;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 23px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+    margin:7px 20px;
+    text-align: end;
+}
+
+#result{
+    display: flex;
+    color: white;
+    font-size: 44px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 13px;
+    border-radius: 12px;
+}
+
+#btns .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(26, 26, 26, 0.555);
+    color: white;
+    border-style: none;
+    margin: 5px;
+}
+#btns .btn h3{
+    font-size: 25px;
+}
+#btns .btn img{
+    width: 30px;
+    position: relative;
+}
+#btns #col-yellow{
+    background-color: rgb(199, 125, 7);
+}
